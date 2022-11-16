@@ -1,0 +1,11 @@
+* {
+    background: #F2CEAB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #595757;
+    margin-top: 50vh;
+    text-transform: uppercase;
+}
