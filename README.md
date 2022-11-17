@@ -2,4 +2,5 @@
  Desenvolvimento do site portfólio.
 
 
-595757
+#FFC727 Amarelo
+#263238 Cinza

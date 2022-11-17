@@ -1,11 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
-    background: #F2CEAB;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
-h1 {
-    text-align: center;
-    color: #14760d;
-    margin-top: 50vh;
-    
+header {
+  background: #263238;
 }
+header nav {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+  font-weight: bold;
+}
+header nav .logo {
+  font-size: 25px;
+}
+header nav ul {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  color: #FFC727;
+}
+header nav ul a :hover {
+  color: #feda75;
+}
+
+main #home {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: #263238;
+  font-weight: bold;
+}
+main #home h1 {
+  font-size: 80px;
+}
+main #home h2 {
+  font-size: 40px;
+  color: #FFC727;
+}
+main #foto {
+  width: 500px;
+}
+main #sobre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: #263238;
+  font-weight: 600;
+  height: 100vh;
+}
+main #sobre #introducao {
+  width: 50vw;
+}
+main #sobre #introducao h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+main #sobre #introducao p {
+  font-weight: 500;
+}
+main #sobre #habilidades {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFC727;
+}
+main #sobre #habilidades .skills {
+  background-color: #263238;
+  padding: 20px 40px;
+  margin: 15px 25px;
+  border-radius: 10px;
+}
+main #portfolio {
+  color: #EBEBEB;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+}
+main #portfolio .projeto {
+  background-color: #263238;
+  height: 350px;
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+main #portfolio .projeto hr {
+  margin-bottom: 15px;
+}
+main #portfolio .projeto .cabecalho {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+main #portfolio .projeto .cabecalho .links a {
+  color: #EBEBEB;
+  text-decoration: none;
+  margin-left: 5px;
+}
+main #portfolio .projeto .cabecalho .links a :hover {
+  color: #DCDCDC;
+}
+main #contato {
+  background-color: #263238;
+  height: 100vh;
+  color: #EBEBEB;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main #contato div {
+  margin-top: 50px;
+}
+main #contato h2 {
+  margin-bottom: 15px;
+}
+main #contato ul a {
+  text-decoration: none;
+  color: #EBEBEB;
+}
+main #contato ul a :hover {
+  color: #feda75;
+}
+main #contato ul a li {
+  list-style: none;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

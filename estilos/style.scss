@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header {
+    background: #263238;
+    
+    nav {
+        display: flex;
+        height: 70px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 35px;
+        font-weight: bold;
+
+        .logo {
+            font-size: 25px;
+        }
+        
+        ul {
+            display: flex;
+            gap: 80px;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: #FFC727;
+
+                :hover {
+                    color: #feda75;
+                }
+             }
+            
+        }
+    }
+}
+
+main {
+    
+    #home {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        color: #263238;
+        font-weight: bold;
+
+        h1 {
+            font-size: 80px;
+        }
+
+        h2 {
+            font-size: 40px;
+            color: #FFC727;
+        }
+    }
+
+    #foto {
+        width: 500px;
+    }
+
+    #sobre {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        color: #263238;
+        font-weight: 600;
+        height: 100vh;
+
+        #introducao {
+            width: 50vw;
+
+            h3 {
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-weight: 500;
+            }
+        }
+
+        #habilidades {
+            font-size: 30px;
+            font-weight: bold;
+            color: #FFC727;
+
+            .skills {
+                background-color: #263238;
+                padding: 20px 40px;
+                margin: 15px 25px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    #portfolio {
+        color: #EBEBEB;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 100vh;
+
+        .projeto {
+            background-color: #263238;
+            height: 350px;
+            width: 250px;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 5px;
+
+            hr {
+                margin-bottom: 15px;
+            }
+
+            .cabecalho {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5px;
+
+                .links{
+                    a {
+                        color: #EBEBEB;
+                        text-decoration: none;
+                        margin-left: 5px;
+
+                        :hover {
+                            color: #DCDCDC;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #contato {
+        background-color: #263238;
+        height: 100vh;
+        color: #EBEBEB;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        div {
+            margin-top: 50px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        ul a {
+            text-decoration: none;
+            color: #EBEBEB;
+
+            :hover {
+                color: #feda75;
+            }
+
+            li {
+                list-style: none;
+                margin: 10px;
+            }
+        }
+    }
+}

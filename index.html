@@ -5,9 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dallysson - Desenvolvedor Web</title>
 </head>
 <body>
-    <h1>Em construção...</h1>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home"><i class="fa-solid fa-house" style="color: #FFC727;"></i></a>
+            </div>
+
+            <ul>
+                <a href="#sobre"><li>Sobre</li></a>
+                <a href="#portfolio"><li>Portfólio</li></a>
+                <a href="#contato"><li>Contato</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div id="apresentacao">
+                <h1>Eu sou Dallysson</h1>
+                <h2>Desenvolvedor Web</h2>
+                <p>Venha conhecer um pouco mais sobre mim.</p>
+            </div>
+
+            <div id="foto">
+                <img src="./img/Programmer.svg" alt="Imagem de um programador">
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div id="introducao">
+                <h3>Um pouco sobre mim</h3>
+                <p>Olá! Meu nome é Dallysson Oliveira da Silva, tenho 25 anos e busco ingressar no mercado de desenvolvimento para web. Gosto de games, esportes, caminhada e café. Atualmente estou estudando Análise e Desenvolvimento de Sistemas e tenho me aprofundado nessas habilidades:</p>
+            </div>
+            <div id="habilidades">
+                <div class="skills"><i class="fa-brands fa-html5"></i> HTML</div>
+                <div class="skills"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+                <div class="skills"><i class="fa-brands fa-square-js"></i> Javascript</div>
+                <div class="skills"><i class="fa-brands fa-git-alt"></i> Git/GitHub</div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="projeto">
+                <div class="cabecalho">
+                    <h4>Título</h4>
+                    <div class="links">
+                        <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                        <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ex quis consectetur quod neque ipsum quas a dolores aperiam quia facilis reprehenderit ducimus tempore blanditiis fuga animi veritatis eos perferendis.</p>
+            </div>
+
+            <div class="projeto">
+                <div class="cabecalho">
+                    <h4>Título</h4>
+                    <div class="links">
+                        <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                        <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ex quis consectetur quod neque ipsum quas a dolores aperiam quia facilis reprehenderit ducimus tempore blanditiis fuga animi veritatis eos perferendis.</p>
+            </div>
+
+            <div class="projeto">
+                <div class="cabecalho">
+                    <h4>Título</h4>
+                    <div class="links">
+                        <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                        <a href="#"> <i class="fa-solid fa-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ex quis consectetur quod neque ipsum quas a dolores aperiam quia facilis reprehenderit ducimus tempore blanditiis fuga animi veritatis eos perferendis.</p>
+            </div>
+
+        </section>
+
+        <section id="contato">
+            <div id="redes">
+                <h2>Fala comigo!</h2>
+                <ul>
+                    <a href="#"> <li> <i class="fa-solid fa-envelope"></i> E-mail</li> </a>
+                    <a href="#"> <li> <i class="fa-brands fa-linkedin"></i> LinkedIn</li> </a>
+                    <a href="#"> <li> <i class="fa-brands fa-github"></i> GitHub</li> </a>
+                    <a href="#"> <li> <i class="fa-brands fa-instagram"></i> Instagram</li> </a>
+                    <a href="#"> <li> <i class="fa-brands fa-whatsapp"></i> Whatsapp</li> </a>
+                </ul>
+            </div>
+            <div id="cv">
+                <h2>Baixe meu currículo</h2>
+                <a href="./recurso/CV - Dallysson Oliveira.pdf" download=""><input type="button" value="CV - Baixar"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        image by: <a href="https://storyset.com/web">Web illustrations by Storyset</a>
+    </footer>
 </body>
 </html>
